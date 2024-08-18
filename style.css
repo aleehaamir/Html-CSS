@@ -1,7 +1,30 @@
-header{
-    text-align: center;
-    color: white;
-    background-color: blueviolet;
-    margin-top: none;
-    margin-left: none;
-}
+.container{
+    border: 2px solid black;
+    display: grid;
+    grid-template-areas: 
+                       "header header header header"
+                        "main main . sidebar"
+                        "footer footer footer footer";
+    }
+    
+    .item{
+    border: 2px solid blue;
+    height: 55px;
+    }
+    .item-1{
+    grid-area: header;
+    background-color: rgb(175, 47, 192);
+    }
+    .item-2{
+     grid-area: main;   
+     background-color: aqua;
+    }
+    .item-3{
+        grid-area: sidebar;
+        background-color: aqua;
+    }
+    .item-4{
+        grid-area: footer;
+        background-color: blueviolet;
+    }
+    
