@@ -1,0 +1,19 @@
+.logo{
+    width:40px;
+    height: 23px;
+}
+.log img{
+    width :134px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bar ul{
+    display: flex;
+    gap: 34px;
+}
+.bar ul li{
+    list-style: none;
+}
