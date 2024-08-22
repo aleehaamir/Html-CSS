@@ -1,19 +1,35 @@
-.logo{
-    width:40px;
-    height: 23px;
-}
-.log img{
-    width :134px;
-}
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: "Segoe UI";
 }
-.bar ul{
+
+.bar ul {
     display: flex;
     gap: 34px;
 }
-.bar ul li{
+
+.bar ul li {
     list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.bar ul li span{
+    padding: 0 5px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 70px;
+    font-family: sans-serif;
+}
+
+.first span {
+    font-size: 40px;
 }
