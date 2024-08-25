@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul{
+    list-style: none;
+}
+.active{
+    color: rgb(199, 47, 73);
+    text-decoration: underline;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('AdventureWebstieImages/img/header-bg.png');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.header-cont{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+.header-cont h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background: rgb(199, 47, 73);
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.header-cont h1{
+    
+    font-size: 5vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+.ctn{
+    padding: 8px 15px;
+    background: rgb(211, 65, 89);
+    border-radius: 30px;
+    color: whitesmoke;
+}
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+@media only screen and (max-width:850px){
+    .navbar{
+        padding: 0;
+    }
+    .logo{
+       position: absolute;
+       top: 30px;
+       left: 30px; 
+    }
+    .nav-links{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background: rgb(39, 39, 83);
+        margin-top: -900px;;
+    }
+    .mobile-menu{
+        margin-top: 0px;
+    }
+    .nav-links li{
+       margin:30px auto ;
+    }
+}
