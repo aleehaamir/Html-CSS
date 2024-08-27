@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: rgb(38, 38, 41);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 70%;
+}
+
+
+.detail {
+    flex: 1;
+    text-align: left;
+}
+
+.detail h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.detail p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #444;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #666;
+}
+
+.exp {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.experience {
+    margin-bottom: 40px;
+}
+
+.experience h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.experience-entry {
+    margin-bottom: 20px;
+}
+
+.experience-entry h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.experience-entry p {
+    font-size: 1.1rem;
+}
+
+#contact {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+.cont {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555555;
+}
